@@ -1,0 +1,212 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+header {
+  margin-top: 1rem;
+  margin-bottom: 0.1rem;
+  padding: 10px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  max-width: 300px;
+  height: auto;
+  margin-left: 10rem;
+}
+
+.bx-shopping-bag {
+  font-size: 1.25rem;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+}
+
+.header_container li {
+  margin-right: 20px;
+}
+
+.header_container li:last-child {
+  margin-right: 11rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  transition: color 0.3s ease;
+}
+
+.header_container li:hover {
+  transform: translateY(-0.5px);
+}
+
+.about-content {
+  background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-3d-style-smooth-white-and-gold-wave-background-picture-image_1301923.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  margin-left: 10rem;
+}
+
+.about-text h2 {
+  margin-top: 7rem;
+  font-size: 18px;
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.about-text p {
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5rem;
+}
+
+.collections-text h2 {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  font-size: 18px;
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.collections-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.collection-choice1,
+.collection-choice2,
+.collection-choice3,
+.collection-choice4,
+.collection-choice5,
+.collection-choice6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.collection-choice1 {
+  background-image: url("https://www.wallacebishop.com.au/cdn/shop/collections/necklaces-wallace-bishop.jpg?v=1651048582");
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-choice2 {
+  background-image: url("https://www.icing.com/dw/image/v2/BBTK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw89dfbaea/images/icing/hi-res/72407_1.jpg?sw=2000&sh=2000&sm=fit");
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-choice3 {
+  background-image: url("https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/b61d82ce02694bd61196cce76c2c76e02bd0b596_xxl-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-choice4 {
+  background-image: url("https://assets.ajio.com/medias/sys_master/root/20211006/8zZo/615d5e9ff997ddce8903007f/-473Wx593H-6005690960-multi-MODEL5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-choice5 {
+  background-image: url("https://images.vestiairecollective.com/cdn-cgi/image/w=1246,q=70,f=auto,/produit/silver-silver-loop-hermes-earrings-32004409-1_2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-choice6 {
+  background-image: url("https://www.wallacebishop.com.au/cdn/shop/collections/Category-Engagement-Rings-Shape.jpg?v=1619743009");
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-choice1 h3,
+.collection-choice2 h3,
+.collection-choice3 h3,
+.collection-choice4 h3,
+.collection-choice5 h3,
+.collection-choice6 h3 {
+  margin-top: 10rem;
+  width: 120px;
+  height: 25px;
+  padding: 5px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  width: 100%;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
