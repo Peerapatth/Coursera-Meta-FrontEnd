@@ -13,8 +13,8 @@ This project is a simple calculator built with React and TypeScript.
 
 1. Clone the repository: `git clone https://github.com/yourusername/react-calculator.git`
 2. Navigate into the directory: `cd react-calculator`
-3. Install the dependencies: `npm install`
-4. Start the application: `npm start`
+3. Install the dependencies: `pnpm install`
+4. Start the application: `pnpm start`
 
 ## Usage
 
